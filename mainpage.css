@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outbox{
+    border: solid 1px;
+    height: 120px;
+    display: flex;
+}
+#b1,#b2{
+    border: solid 1px;
+    height: 120px;
+}
+#b1{
+    width: 300px;
+}
+#b2{
+    width: 100%;
+    background-color: #933993;
+    text-align: center;
+}
+#clgname{
+    color: #f0f8ff;
+    font-size: 52px;
+    font-family: "Jacquard 24", system-ui;
+}
+#t1{
+    font-size: 22px;
+    color: #f0f8ff;
+}
+#t2{
+    color:#f0f8ff;
+}
+#scrolltext{
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+.navigation{
+    border: solid 1px ;
+    height: 55px;
+}
+ul li{
+    border: solid 1px;
+    height: 55px;
+    float: left;
+    width: 136px;
+    text-align: center;
+    line-height: 55px;
+    background-color: rgba(223, 142, 223, 0.788);
+    position: relative;
+    margin-bottom: 2px; 
+    border-radius: 4px;  
+    margin-right:1px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: #290303;
+    font-size: 15px;
+    text-decoration: none;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul li:hover>ul{
+    display: block;
+}
+ul li ul li{
+    width: 200px;
+    background-color: #dddddd;
+
+}
+ul li ul li ul li{
+    width: 350px;
+    margin-left: 205px;
+}
+ul ul ul{
+    top:0px
+}
+ul li:hover{
+    background-color: rgb(210, 252, 133);
+}
+ul li ul li:hover{
+  
+    background-color: #68e0e9;
+}
+ul li ul li ul li:hover{
+    background-color: #615a5a;
+}
+.arrow{
+    color: rgb(107, 88, 52);
+    font-size: 17px;
+}
+.obox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 400px;
+
+}
+#in1{
+    width: 650px;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 650px 400px;
+    animation-name: imageschanging;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imageschanging{
+    10%{
+        background-image: url(img2.jpg);
+
+    }
+    20%{
+        background-image: url(img3.jpg);
+    }
+    30%{
+        background-image: url(img4.jpg);
+    }
+    40%{
+        background-image: url(img5.jpg);
+    }
+}
+#in2,#in3{
+    width: 23%;
+   
+}
+.out{
+    border: solid 1px;
+    height:150px;
+    background-color: #5e526d;
+}
+#logo{
+    padding-right: 10.7%;
+  
+   
+}
